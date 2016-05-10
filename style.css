@@ -1,0 +1,102 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.navbar-default {
+  margin: 0;
+  border-color: grey;
+  background-color: grey;
+  padding: 1rem 1rem;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  color: white;
+}
+
+#title {
+  padding: 7rem 5rem;
+  max-width: 100%;
+  background-color: #FFA562;
+  color: white;
+}
+
+.centerImage {
+  text-align: center;
+ 
+}
+
+#scottImage {
+  border-radius: 50%;
+  margin: 5rem 0 5rem 0;
+  min-width: 25%;
+  text-align: center;
+}
+
+ #title h1 {
+  font-size: 7rem;
+}
+
+p {
+  font-size: 2rem
+}
+
+hr {
+  border: none;
+  height: 0.7rem;
+  background-color: white;
+  
+}
+
+#portfolio {
+  padding: 7rem 5rem;
+  max-width: 100%;
+  background-color: white;
+}
+
+#about {
+  padding: 7rem 5rem;
+  max-width: 100%;
+  background-color: #FFA562;
+  color: white;
+  
+}
+
+#about p {
+  padding: 0 10% 0 10%;
+}
+
+#resumeLinkContainer {
+  max-width: 100%;
+}
+
+#resumeLink a {
+  width: 14rem;
+  border: solid white 2px;
+  border-radius: 10%;
+}
+
+#contact {
+  padding: 7rem 5rem;
+  max-width: 100%;
+  background-color: white;
+}
+
+.emailAddress {
+  vertical-align: middle;
+}
+
+a, a:hover, a:visited {
+  color: white;
+}
+
+@media (max-width:742px) {
+  #title h1 {
+    font-size: 5rem;
+  }
+}
+
